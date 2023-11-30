@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Country Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        Country Information
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" id="countryName">Country Name</h5>
+                        <p class="card-text" id="capital">Capital: </p>
+                        <p class="card-text" id="region">Region: </p>
+                        <p class="card-text" id="latlng">Latlng: </p>
+                        <img src="" alt="Flag" id="flag" style="max-width: 100%;">
+                        <button class="btn btn-primary" onclick="getWeather()">Click for Weather</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
